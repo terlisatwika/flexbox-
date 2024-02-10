@@ -1,0 +1,86 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+.nav-bar ul{
+    display: flex;
+    position: relative;
+    padding: 0;
+    margin: 1px;
+}
+.nav-bar li{
+    list-style: none;
+    margin: 15px;
+    display: inline;
+    cursor: pointer;
+    color: rgb(0,0,0);
+}
+.bg{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: navy;
+    text-align: center;
+    text-align: uppercase;
+}
+p{
+    text-align: center;
+}
+button{
+    border: none;
+    color: rgb(0,0,163);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor:pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.dora-images{
+    background-color: rgb(193,53,165);
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    justify-self: center;
+}
+
+.images{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.boots1{
+    background-image: url("../images/boots1.jpg");
+}
+.swiper2{
+    background-image: url("../images/swiper2.jpg"); 
+}
+.tico3{
+    background-image: url("../images/tico3.jpg");
+}
+
+
+
+
+
+    
+}
